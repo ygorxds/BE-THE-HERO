@@ -1,12 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { Link, useHistory } from 'react-router-dom';
 import { FiPower, FiTrash2 } from 'react-icons/fi'
-import "../../services/api"
-
-import './styles.css'
-
 import logoImg from '../../assets/logo.svg'
 import api from "../../services/api";
+import "../../services/api"
+import './styles.css'
 
 
 export default function Profile() {
