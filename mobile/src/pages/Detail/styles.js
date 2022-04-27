@@ -48,7 +48,7 @@ export default StyleSheet.create({
     fontWeight: 'bold',
     fontSize: 20,
     color: '#13131a',
-    lineheight: 30,
+    lineHeight: 30,
 
   },
   heroDescription: {

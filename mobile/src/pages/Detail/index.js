@@ -3,10 +3,10 @@ import { View, Text, Image, TouchableOpacity, Linking } from 'react-native';
 import { Feather } from '@expo/vector-icons';
 import logoImg from '../../assets/logo.png';
 import { useNavigation } from '@react-navigation/native';
-import * as MailComposer from 'expo-mail-composer'
+import * as MailComposer from 'expo-mail-composer';
 
 
-import styles from './styles'
+import styles from './styles';
 
 export default function Detail() {
   const navigation = useNavigation();
@@ -36,7 +36,7 @@ export default function Detail() {
         <Image source={logoImg} />
 
         <TouchableOpacity onPress={navigateBack}>
-          <Feather name="arrow-left" size={28} color="E82041" />
+          <Feather name="arrow-left" size={28} color="#e82041" />
         </TouchableOpacity>
       </View>
 
