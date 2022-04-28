@@ -74,7 +74,7 @@ export default function Incidents() {
               style={styles.detailsButton}
               onPress={() => navigateToDetail(incident)}>
               <Text style={styles.detailsButtonText}>Ver mais detalhes</Text>
-              <Feather name="arrow-right" size={16} color="#e02041" />
+              <Feather name="arrow-right" size={16} color="#00924d" />
             </TouchableOpacity>
           </View>
         )}
