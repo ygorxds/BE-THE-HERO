@@ -1,6 +1,6 @@
 import { Link, useHistory } from 'react-router-dom'
 import heroesImg from "../../assets/heroes.png";
-import logoImg from "../../assets/logo.svg";
+import logoImg from "../../assets/logo.png";
 import { FiLogIn } from "react-icons/fi";
 import React, { useState } from "react";
 import api from "../../services/api"
@@ -39,7 +39,7 @@ export default function Logon() {
           />
           <button className="button" type="submit">Entrar</button>
           <Link className="back-link" to="/register">
-            <FiLogIn size={16} color="E02041" />
+            <FiLogIn size={16} color="#00924d" />
             Não tenho cadastro
           </Link>
         </form>

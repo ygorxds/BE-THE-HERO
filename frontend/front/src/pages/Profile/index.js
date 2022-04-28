@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link, useHistory } from 'react-router-dom';
 import { FiPower, FiTrash2 } from 'react-icons/fi'
-import logoImg from '../../assets/logo.svg'
+import logoImg from '../../assets/logo.png'
 import api from "../../services/api";
 import "../../services/api"
 import './styles.css'
@@ -56,7 +56,7 @@ export default function Profile() {
 
         <Link className="button" to="/incidents/new">Cadastrar novo caso</Link>
         <button onClick={handleLogout} type="button">
-          <FiPower size={18} color="#E02041" />
+          <FiPower size={18} color="#00924d" />
         </button>
       </header>
       <h1>Casos Cadastrados</h1>
