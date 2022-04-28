@@ -1,19 +1,21 @@
 {
   "expo": {
-    "name": "Save the planet",
-    "slug": "mobile",
+    "name": "PEOPLE SAVE THE WORLD",
+    "slug": "peoplesavethworld",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#E02041"
+      "backgroundColor": "#00924d"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
     },
@@ -25,6 +27,8 @@
     },
     "web": {
       "favicon": "./assets/icon.png"
-    }
+    },
+    "description": "App para ajudar uma ong a salvar o planeta",
+    "githubUrl": "https://github.com/ygorxds/ONGs-API-NODEJS-REACT-REACT-NATIVE-E-SQLite"
   }
 }

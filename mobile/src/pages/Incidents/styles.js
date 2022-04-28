@@ -65,7 +65,7 @@ export default StyleSheet.create({
   },
 
   detailsButtonText: {
-    color: '#e02041',
+    color: '#00924d',
     fontSize: 15,
     fontWeight: 'bold',
   }
